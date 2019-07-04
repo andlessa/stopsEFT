@@ -1,1 +1,1 @@
-# Stops - EFT and SMS
+# Stops - EFT vs SMS
