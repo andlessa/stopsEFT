@@ -1,1 +1,1 @@
-# stopsEFT
+# Stops - EFT and SMS
