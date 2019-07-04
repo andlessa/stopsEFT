@@ -1,0 +1,33 @@
+Analysis_CMS_13TeV_1LEPbb_36invfb : CMS-SUS-16-043
+Analysis_CMS_13TeV_1LEPStop_36invfb : CMS-SUS-16-051
+Analysis_CMS_13TeV_2LEPsoft_36invfb : CMS-SUS-16-048
+Analysis_CMS_13TeV_2OSLEP_36invfb : CMS-SUS-16-034
+Analysis_CMS_13TeV_2OSLEP_confnote_36invfb : CMS-SUS-16-034
+Analysis_CMS_13TeV_MultiLEP_36invfb : CMS-SUS-16-039
+Analysis_CMS_13TeV_0LEP_13invfb : CMS-PAS-SUS-16-014
+Analysis_CMS_13TeV_0LEP_36invfb : CMS-SUS-16-033
+Analysis_CMS_13TeV_2LEPStop_36invfb : CMS-SUS-17-001
+Analysis_CMS_13TeV_MONOJET_36invfb : CMS-EXO-16-048
+Analysis_CMS_13TeV_MultiLEP_Full_36invfb : CMS-SUS-16-039
+
+Analysis_CMS_8TeV_3LEPEW_20invfb : CMS-PAS-SUS-13-006
+Analysis_CMS_8TeV_1LEPDMTOP_20invfb :  CMS-PAS-B2G-14-004 
+Analysis_CMS_8TeV_2LEPDMTOP_20invfb :  CMS-PAS-B2G-13-004
+Analysis_CMS_8TeV_3LEPEW_20invfb : CMS-PAS-SUS-13-006
+Analysis_CMS_8TeV_MONOJET_20invfb : CMS-EXO-12-048
+
+Analysis_ATLAS_13TeV_0LEPStop_36invfb : ATLAS-SUSY-2016-15
+
+
+'CMS-SUS-17-001': ColliderBit, CheckMate, MadAnalysis
+'CMS-SUS-13-004': --
+'CMS-PAS-SUS-13-023': --
+'ATLAS-SUSY-2013-15': --
+'CMS-SUS-16-033': ColliderBit, MadAnalysis
+'CMS-SUS-16-049': --
+'CMS-SUS-16-032': --
+'CMS-SUS-16-051': ColliderBit
+'CMS-SUS-16-036': --
+
+
+

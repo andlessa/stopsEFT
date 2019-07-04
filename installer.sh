@@ -26,3 +26,22 @@ if echo "$answer" | grep -iq "^y" ;then
 	rm $madgraph;
   cp ./mg5_configuration.txt MG5/input/;
 fi
+
+
+colliderbit="ColliderBit-1.3.1.tar.gz"
+URL=https://gambit.hepforge.org/downloads/?f=ColliderBit%20(standalone)/$colliderbit
+echo -n "Install ColliderBit (y/n)? "
+read answer
+if echo "$answer" | grep -iq "^y" ;then
+	mkdir ColliderBit;
+	echo "[installer] getting ColliderBit"; wget $URL 2>/dev/null || curl -O $URL; tar -zxf $colliderbit -C ColliderBit --strip-components 1;
+	rm $colliderbit;
+  cd ColliderBit;
+  mkdir build;
+  cd build;
+  cmake ..;
+  make;
+  make -j4 ColliderBit_standalone;
+  make nulike;
+  make pythia_8.212.EM;
+fi
