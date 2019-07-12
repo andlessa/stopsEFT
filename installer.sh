@@ -29,12 +29,14 @@ fi
 
 
 colliderbit="ColliderBit-1.3.1.tar.gz"
-URL=https://gambit.hepforge.org/downloads/?f=ColliderBit%20(standalone)/$colliderbit
+URL="https://gambit.hepforge.org/downloads/?f=ColliderBit%20(standalone)/"$colliderbit
 echo -n "Install ColliderBit (y/n)? "
 read answer
 if echo "$answer" | grep -iq "^y" ;then
 	mkdir ColliderBit;
 	echo "[installer] getting ColliderBit"; wget $URL 2>/dev/null || curl -O $URL; tar -zxf $colliderbit -C ColliderBit --strip-components 1;
+	echo "[installer] fixing default_bossed_versions.hpp to run ColliderBit standalone";
+  cp default_bossed_versions.hpp ColliderBit/Backends/include/gambit/Backends/;
 	rm $colliderbit;
   cd ColliderBit;
   mkdir build;
@@ -44,4 +46,5 @@ if echo "$answer" | grep -iq "^y" ;then
   make -j4 ColliderBit_standalone;
   make nulike;
   make pythia_8.212.EM;
+  make -j4 ColliderBit_standalone;
 fi
