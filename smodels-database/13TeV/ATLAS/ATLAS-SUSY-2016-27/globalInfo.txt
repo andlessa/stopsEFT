@@ -1,0 +1,11 @@
+id: ATLAS-SUSY-2016-27
+sqrts: 13*TeV
+lumi: 36.1/fb
+prettyName:  
+url: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-27/
+arxiv: https://arxiv.org/abs/1802.03158
+publication: Phys. Rev. D 97, 092006 (2018)
+contact: ATLAS collaboration
+private: False
+implementedBy: Philipp Neuhuber
+lastUpdate: 2019/7/4
