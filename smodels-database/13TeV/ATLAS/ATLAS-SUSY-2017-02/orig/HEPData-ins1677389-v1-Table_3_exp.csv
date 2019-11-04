@@ -1,0 +1,17 @@
+#: table_doi: 10.17182/hepdata.83418.v1/t3
+#: name: Table 3
+#: description: Exclusion limits on higgsino pair production. The results of the low-mass analysis are used below m(higgsino) = 300 GeV, while those of the high-mass analysis are used above. The figure shows the observed and expected 95% upper limits on the higgsino pair production cross-section as a function of m(higgsino).
+#: data_file: GGMupperLimit.yaml
+#: keyword reactions: P P --> HIGGSINO HIGGSINO X --> HIGGS HIGGS NEUTRALINO NEUTRALINO X --> BQ BQBAR BQ BQBAR X
+#: keyword observables: SIG
+#: keyword cmenergies: 13000.0
+#: keyword phrases: Proton-Proton Scattering | Supersymmetry | SUSY | Higgs | Higgsino | Higgs pair Production | Beauty
+#: RE,P P --> HIGGSINO HIGGSINO X --> HIGGS HIGGS NEUTRALINO NEUTRALINO X --> BQ BQBAR BQ BQBAR X
+#: Mass of HIGGSINO [GEV],"Excluded cross section, Expected [fb] []"
+250.0,0.50
+250.0,0.75
+250.0,1.00
+250.0,1.25
+250.0,1.50
+
+

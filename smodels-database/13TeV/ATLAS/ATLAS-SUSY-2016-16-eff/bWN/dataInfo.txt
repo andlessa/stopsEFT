@@ -1,0 +1,7 @@
+dataId: bWN
+dataType: efficiencyMap
+observedN: 68
+expectedBG: 71
+bgError: 16
+upperLimit: 0.99*fb
+expectedUpperLimit: 1.07*fb

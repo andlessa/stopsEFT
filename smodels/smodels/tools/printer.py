@@ -744,6 +744,13 @@ class PyPrinter(BasicPrinter):
             dataType = theoryPrediction.dataType()
             ul = theoryPrediction.getUpperLimit()
             ulExpected = theoryPrediction.getUpperLimit(expected = True)
+            lumi = theoryPrediction.dataset.globalInfo.lumi
+            nsig,nbg,nobs,bgError = 0.,0.,0.,0.
+            if dataType == 'efficiencyMap':
+                nsig = (theoryPrediction.xsection.value*lumi).asNumber()
+                nbg = theoryPrediction.dataset.dataInfo.expectedBG
+                nobs = theoryPrediction.dataset.dataInfo.observedN
+                bgError = theoryPrediction.dataset.dataInfo.bgError
             if isinstance(ul,unum.Unum):
                 ul = ul.asNumber(fb)
             if isinstance(ulExpected,unum.Unum):
@@ -800,7 +807,8 @@ class PyPrinter(BasicPrinter):
                         'AnalysisSqrts (TeV)': sqrts.asNumber(TeV),
                         'lumi (fb-1)' : (expResult.globalInfo.lumi*fb).asNumber(),
                         'dataType' : dataType,
-                        'r' : r, 'r_expected' : r_expected}
+                        'r' : r, 'r_expected' : r_expected,
+                        'nsig' : nsig, 'nbg' : nbg, 'nobs' : nobs, 'bgError' : bgError}
             if widths: 
                 resDict["Width (GeV)"] = widths
             if hasattr(self,"addtxweights") and self.addtxweights:

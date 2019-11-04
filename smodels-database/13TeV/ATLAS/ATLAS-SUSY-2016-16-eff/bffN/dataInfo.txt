@@ -1,0 +1,7 @@
+dataId: bffN
+dataType: efficiencyMap
+observedN: 70
+expectedBG: 60.5
+bgError: 6.1
+upperLimit: 0.876*fb
+expectedUpperLimit: 0.588*fb

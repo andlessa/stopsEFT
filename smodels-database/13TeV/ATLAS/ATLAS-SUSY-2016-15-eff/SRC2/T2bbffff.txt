@@ -1,0 +1,18 @@
+txName: T2bbffff
+constraint: 9/4*[[['b', 'jet','jet']],[['b', 'jet','jet']]]
+condition: None
+conditionDescription: None
+susyProcess: pp --> stop stop, stop  --> bottom f f lsp
+checked: False
+figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-15/fig_08.png
+dataUrl: https://www.hepdata.net/record/ins1623207?version=7&table=Observed exclusion contour directTT
+source: ATLAS
+validated: False
+axes: [[x, y], [x, y]]
+finalState: ['MET', 'MET']
+efficiencyMap: [[[[2.0000E+02*GeV,1.7300E+02*GeV],[2.0000E+02*GeV,1.7300E+02*GeV]],0.0023667],
+[[[2.2500E+02*GeV,1.7300E+02*GeV],[2.2500E+02*GeV,1.7300E+02*GeV]],0.0052546],
+[[[2.5000E+02*GeV,1.8800E+02*GeV],[2.5000E+02*GeV,1.8800E+02*GeV]],0.034477],
+[[[2.5000E+02*GeV,1.7300E+02*GeV],[2.5000E+02*GeV,1.7300E+02*GeV]],0.025361],
+[[[1.9000E+02*GeV,1.6700E+02*GeV],[1.9000E+02*GeV,1.6700E+02*GeV]],0.0017605],
+[[[2.2000E+02*GeV,1.6700E+02*GeV],[2.2000E+02*GeV,1.6700E+02*GeV]],0.0074427]]

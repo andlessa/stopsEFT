@@ -1,0 +1,7 @@
+dataId: tN_diag_low
+dataType: efficiencyMap
+observedN: 34
+expectedBG: 30.3
+bgError: 5.9
+upperLimit: 0.608*fb
+expectedUpperLimit: 0.49*fb

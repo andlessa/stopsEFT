@@ -1,0 +1,11 @@
+id: ATLAS-SUSY-2016-15
+sqrts: 13*TeV
+lumi: 36.1/fb
+prettyName: stop to lsp
+url: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-15/
+arxiv: https://arxiv.org/abs/1709.04183
+publication: JHEP 12 (2017) 085
+contact: ATLAS collaboration
+private: False
+implementedBy: Philipp Neuhuber
+lastUpdate: 2019/9/5

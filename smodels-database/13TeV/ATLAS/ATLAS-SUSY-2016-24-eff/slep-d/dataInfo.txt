@@ -1,0 +1,7 @@
+dataId: slep-d
+dataType: efficiencyMap
+observedN: 0
+expectedBG: 1.4
+bgError: 0.4
+upperLimit: 0.0877*fb
+expectedUpperLimit: 0.0928*fb

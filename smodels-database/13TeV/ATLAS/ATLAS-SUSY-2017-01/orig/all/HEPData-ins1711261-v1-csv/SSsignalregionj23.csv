@@ -1,0 +1,42 @@
+#: table_doi: 10.17182/hepdata.85726.v1/t8
+#: name: SS signal region j23
+#: description: Observed and predicted distributions for $m_{T2}$ in SRSS-j23. All SRs selections but the one on the quantity shown are applied. All uncertainties are included in the uncertainty band. An example SUSY model is superimposed for illustrative purposes.
+#: data_file: Histo1D_Mt2_SRjet23_NoMt2.yaml
+#: data_license:   
+#: keyword reactions: P P --> CHARGINO1 NEUTRALINO2 X
+#: keyword observables: 
+#: keyword cmenergies: 13000.0
+#: keyword phrases: Electroweak | Same-sign | Chargino | Neutralino | Proton-Proton Scattering
+#: ,Data
+#: SQRT(S) [GeV],13000.0
+$m_{T2}$ [GeV],Events / 35 GeV,error +,error -
+17.5,4.0,3.1627,-1.9143
+52.5,12.0,4.5598,-3.4153
+87.5,8.0,3.9451,-2.7683
+122.5,0.0,0.0,-0.0
+157.5,0.0,0.0,-0.0
+192.5,0.0,0.0,-0.0
+227.5,0.0,0.0,-0.0
+
+#: ,Total SM
+#: SQRT(S) [GeV],13000.0
+$m_{T2}$ [GeV],Events / 35 GeV,sys $\otimes$ stat +,sys $\otimes$ stat -
+17.5,6.2112,2.8323,-2.5606
+52.5,10.192,4.0615,-3.9789
+87.5,4.6198,1.6886,-1.4893
+122.5,0.3539,0.501,-0.3771
+157.5,0.2859,0.2129,-0.2156
+192.5,0.0412,0.136,-0.1059
+227.5,0.0017,0.0017,-0.0017
+
+#: ,Signal
+#: SQRT(S) [GeV],13000.0
+$m_{T2}$ [GeV],Events / 35 GeV,stat +,stat -
+17.5,1.7976,0.5578,-0.5578
+52.5,2.1426,0.6597,-0.6597
+87.5,6.0061,1.3525,-1.3525
+122.5,2.4466,0.6619,-0.6619
+157.5,0.148,0.148,-0.148
+192.5,0.0,0.0,-0.0
+227.5,0.0,0.0,-0.0
+

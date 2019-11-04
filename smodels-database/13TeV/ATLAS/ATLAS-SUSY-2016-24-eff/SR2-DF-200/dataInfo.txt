@@ -1,0 +1,7 @@
+dataId: SR2-DF-200
+dataType: efficiencyMap
+observedN: 6
+expectedBG: 2.1
+bgError: 1.9
+upperLimit: 0.319*fb
+expectedUpperLimit: 0.167*fb

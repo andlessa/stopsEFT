@@ -1,0 +1,7 @@
+dataId: SRC5
+dataType: efficiencyMap
+observedN: 3.2
+expectedBG: 3.0
+bgError: 0.6
+upperLimit: 0.146*fb
+expectedUpperLimit: 0.146*fb

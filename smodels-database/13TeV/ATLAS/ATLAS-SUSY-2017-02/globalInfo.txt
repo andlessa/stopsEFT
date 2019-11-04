@@ -1,0 +1,11 @@
+id: ATLAS-SUSY-2017-02
+sqrts: 13*TeV
+lumi: 36.1/fb
+prettyName: 0L + jets + Etmiss
+url: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2017-02/
+arxiv: https://arxiv.org/abs/1806.04030
+publication: Phys. Rev. D 98, 092002 (2018)
+contact: ATLAS collaboration
+private: False
+implementedBy: Philipp Neuhuber
+lastUpdate: 2019/10/22

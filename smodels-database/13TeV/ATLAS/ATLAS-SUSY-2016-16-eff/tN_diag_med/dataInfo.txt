@@ -1,0 +1,7 @@
+dataId: tN_diag_med
+dataType: efficiencyMap
+observedN: 115
+expectedBG: 115
+bgError: 31
+upperLimit: 1.92*fb
+expectedUpperLimit: 1.92*fb

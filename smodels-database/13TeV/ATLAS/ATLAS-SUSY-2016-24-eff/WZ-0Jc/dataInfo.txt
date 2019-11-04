@@ -1,0 +1,7 @@
+dataId: WZ-0Jc
+dataType: efficiencyMap
+observedN: 2
+expectedBG: 1.6
+bgError: 0.3
+upperLimit: 0.136*fb
+expectedUpperLimit: 0.136*fb

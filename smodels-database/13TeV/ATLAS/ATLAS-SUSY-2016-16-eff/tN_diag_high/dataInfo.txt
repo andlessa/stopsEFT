@@ -1,0 +1,7 @@
+dataId: tN_diag_high
+dataType: efficiencyMap
+observedN: 19
+expectedBG: 18.3
+bgError: 2.2
+upperLimit: 0.329*fb
+expectedUpperLimit: 0.303*fb

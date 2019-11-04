@@ -1,0 +1,7 @@
+dataId: SR1Lbb-Medium
+dataType: efficiencyMap
+observedN: 7
+expectedBG: 2.8
+bgError: 1
+upperLimit: 0.305*fb
+expectedUpperLimit: 0.162*fb
