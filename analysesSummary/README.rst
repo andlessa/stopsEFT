@@ -1,23 +1,29 @@
-# Stops - EFT vs SMS
+==================
+Stops - EFT vs SMS
+==================
 
 
-## Analyses Summary ##
+Analyses Summary
+================
 
-### ATLAS ###
+ATLAS
+*****
 
-#### Summary ####
+Summary
+^^^^^^^
 
-![ATLAS_stop_summary.png](ATLAS_stop_summary.png)
+.. figure:: ATLAS_stop_summary.png
+   :width: 100%
+   `source <https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2019-044/fig_06.png>`_
 
-(https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2019-044/fig_06.png)
 
-
-* [EXOT-2015-03](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-03/) (1604.07773)
+* `EXOT-2015-03 <https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-03/>`_ (1604.07773)
   * Results of a search for new phenomena in final states with an energetic jet and large missing transverse momentum are reported. The search uses proton--proton collision data corresponding to an   integrated luminosity of 3.2 fb−1 at s√=13 TeV collected in 2015 with the ATLAS detector at the Large Hadron Collider. Events are required to have at least one jet with a transverse momentum above 250 GeV and no leptons. Several signal regions are considered with increasing missing-transverse-momentum requirements between EmissT>250 GeV and EmissT>700 GeV. Good agreement is observed between the number of events in data and Standard Model predictions. The results are translated into exclusion limits in models with large extra spatial dimensions, pair production of weakly interacting dark-matter candidates, and the production of supersymmetric particles in several compressed scenarios.
-  
-  ![EXOT-2015-03_fig_05](EXOT-2015-03_fig_05.png)
 
-* [SUSY-2015-02](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2015-02/) (1606.03903)
+.. figure:: EXOT-2015-03_fig_05.png
+   :width: 50%
+
+* `SUSY-2015-02 <https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2015-02/>`_ (1606.03903)
   * The results of a search for the stop, the supersymmetric partner of the top quark, in final states with one isolated electron or muon, jets, and missing transverse momentum are reported. The search uses the 2015 LHC pp collision data at a center-of-mass energy of s√=13 TeV recorded by the ATLAS detector and corresponding to an integrated luminosity of 3.2 fb−1. The analysis targets two types of signal models: gluino-mediated pair production of stops with a nearly mass-degenerate stop and neutralino; and direct pair production of stops, decaying to the top quark and the lightest neutralino. The experimental signature in both signal scenarios is similar to that of a top quark pair produced in association with large missing transverse momentum. No significant excess over the Standard Model background prediction is observed, and exclusion limits on gluino and stop masses are set at 95% confidence level. The results extend the LHC Run-1 exclusion limit on the gluino mass up to 1460 GeV in the gluino-mediated scenario in the high gluino and low stop mass region, and add an excluded stop mass region from 745 to 780 GeV for the direct stop model with a massless lightest neutralino. The results are also reinterpreted to set exclusion limits in a model of vector-like top quarks.
   
   ![SUSY-2015-02_fig_08b.png](SUSY-2015-02_fig_08b.png)
