@@ -116,7 +116,7 @@ Analyses
 ^^^^^^^^
 
 
-* `SU-19-005 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-19-005/>`_ (1909.03460)
+* `SUS-19-005 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-19-005/>`_ (1909.03460)
 
   * Two related searches for phenomena beyond the standard model (BSM) are performed using events with hadronic jets and significant transverse momentum imbalance. The results are based on a sample of proton-proton collisions at a center-of-mass energy of 13 TeV, collected by the CMS experiment at the LHC in 2016-2018 and corresponding to an integrated luminosity of 137 fb−1. The first search is inclusive, based on signal regions defined by the hadronic energy in the event, the jet multiplicity, the number of jets identified as originating from bottom quarks, and the value of the kinematic variable MT2 for events with at least two jets. For events with exactly one jet, the transverse momentum of the jet is used instead. The second search looks in addition for disappearing tracks produced by BSM long-lived charged particles that decay within the volume of the tracking detector. No excess event yield is observed above the predicted standard model background. This is used to constrain a range of BSM models that predict the following: the pair production of gluinos and squarks in the context of supersymmetry models conserving R-parity, with or without intermediate long-lived charginos produced in the decay chain; the resonant production of a colored scalar state decaying to a massive Dirac fermion and a quark; or the pair production of scalar and vector leptoquarks each decaying to a neutrino and a top, bottom, or light-flavor quark. In most of the cases, the results obtained are the most stringent constraints to date.
   
@@ -125,9 +125,24 @@ Analyses
 .. figure:: CMS-SUS-19-005_Figure_014-c.png
 
 
-* `SU-16-017 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-16-017/>`_ (1812.06302)
+* `SUS-16-017 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-16-017/>`_ (1812.06302)
 
   * An inclusive search for supersymmetry (SUSY) using the razor variables is performed using a data sample of proton-proton collisions corresponding to an integrated luminosity of 35.9 fb−1 , collected with the CMS experiment in 2016 at a center-of-mass energy of s√= 13 TeV. The search looks for an excess of events with large transverse energy, large jet multiplicity, and large missing transverse momentum. The razor kinematic variables are sensitive to large mass differences between the parent particle and the invisible particles of a decay chain and help to identify the presence of SUSY particles. The search covers final states with zero or one charged lepton and features event categories divided according to the presence of a high transverse momentum hadronically decaying W boson or top quark, the number of jets, the number of b-tagged jets, and the values of the razor kinematic variables, in order to separate signal from background for a broad range of SUSY signatures. The addition of the Lorentz-boosted W boson and top quark categories within the analysis further increases the sensitivity of the search, particularly to signal models with large mass splitting between the produced gluino or squark and the lightest SUSY particle. The analysis is interpreted using simplified models of R-parity conserving SUSY, focusing on gluino pair production and top squark pair production. Limits on the gluino mass extend to 2.0 TeV, while limits on top squark mass reach 1.14 TeV.
   
 .. figure:: CMS-SUS-16-017_Figure_024.png
 
+
+* `SUS-16-036 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-16-036/index.html>`_ (1705.04650)
+
+  * A search for new phenomena is performed using events with jets and significant transverse momentum imbalance, as inferred through the MT2 variable. The results are based on a sample of proton-proton collisions collected in 2016 at a center-of-mass energy of 13 TeV with the CMS detector and corresponding to an integrated luminosity of 35.9 fb−1. No excess event yield is observed above the predicted standard model background, and the results are interpreted as limits on the masses of predicted particles in a variety of simplified models of R-parity conserving supersymmetry. Depending on the details of the model, 95% confidence level lower limits on the gluino (light-flavor squark) masses are placed up to 2025 (1550) GeV. Mass limits as high as 1070 (1175) GeV are set on the masses of top (bottom) squarks. Information is provided to enable re-interpretation of these results, including model-independent limits on the number of non-standard model events for a set of simplified, inclusive search regions.
+  
+.. figure:: CMS-SUS-16-036_Figure_007-b.png
+
+.. figure:: CMS-SUS-16-036_Figure_008-c.png
+
+
+* `SUS-16-051 <http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-16-051/>`_ (1706.04402)
+
+  * A search for top squark pair production in pp collisions at s√= 13 TeV is performed using events with a single isolated electron or muon, jets, and a large transverse momentum imbalance. The results are based on data collected in 2016 with the CMS detector at the LHC, corresponding to an integrated luminosity of 35.9 fb−1. No significant excess of events is observed above the expectation from standard model processes. Exclusion limits are set in the context of supersymmetric models of pair production of top squarks that decay either to a top quark and a neutralino or to a bottom quark and a chargino. Depending on the details of the model, we exclude top squarks with masses as high as 1120 GeV. Detailed information is also provided to facilitate theoretical interpretations in other scenarios of physics beyond the standard model.
+  
+.. figure:: CMS-SUS-16-051_Figure_005.png
