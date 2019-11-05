@@ -7,16 +7,20 @@
 
 #### Summary ####
 
-![ATLAS_stop_summary.png]
+![ATLAS_stop_summary.png](ATLAS_stop_summary.png)
+
 (https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2019-044/fig_06.png)
+
 
 * [EXOT-2015-03](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-03/) (1604.07773)
   * Results of a search for new phenomena in final states with an energetic jet and large missing transverse momentum are reported. The search uses proton--proton collision data corresponding to an   integrated luminosity of 3.2 fb−1 at s√=13 TeV collected in 2015 with the ATLAS detector at the Large Hadron Collider. Events are required to have at least one jet with a transverse momentum above 250 GeV and no leptons. Several signal regions are considered with increasing missing-transverse-momentum requirements between EmissT>250 GeV and EmissT>700 GeV. Good agreement is observed between the number of events in data and Standard Model predictions. The results are translated into exclusion limits in models with large extra spatial dimensions, pair production of weakly interacting dark-matter candidates, and the production of supersymmetric particles in several compressed scenarios.
-  ![EXOT-2015-03_fig_05.png]
+  
+  ![EXOT-2015-03_fig_05](EXOT-2015-03_fig_05.png)
 
 * [SUSY-2015-02](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2015-02/) (1606.03903)
   * The results of a search for the stop, the supersymmetric partner of the top quark, in final states with one isolated electron or muon, jets, and missing transverse momentum are reported. The search uses the 2015 LHC pp collision data at a center-of-mass energy of s√=13 TeV recorded by the ATLAS detector and corresponding to an integrated luminosity of 3.2 fb−1. The analysis targets two types of signal models: gluino-mediated pair production of stops with a nearly mass-degenerate stop and neutralino; and direct pair production of stops, decaying to the top quark and the lightest neutralino. The experimental signature in both signal scenarios is similar to that of a top quark pair produced in association with large missing transverse momentum. No significant excess over the Standard Model background prediction is observed, and exclusion limits on gluino and stop masses are set at 95% confidence level. The results extend the LHC Run-1 exclusion limit on the gluino mass up to 1460 GeV in the gluino-mediated scenario in the high gluino and low stop mass region, and add an excluded stop mass region from 745 to 780 GeV for the direct stop model with a massless lightest neutralino. The results are also reinterpreted to set exclusion limits in a model of vector-like top quarks.
-  ![SUSY-2015-02_fig_08b.png]
+  
+  ![SUSY-2015-02_fig_08b.png](SUSY-2015-02_fig_08b.png)
 
 * [SUSY-2016-17](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-17/) (1708.03247)
   * The results of a search for direct pair production of top squarks in events with two opposite-charge leptons (electrons or muons) are reported, using 36.1 fb$^{-1}$ of integrated luminosity from proton--proton collisions at $\sqrt{s}=13$ TeV collected by the ATLAS detector at the Large Hadron Collider. To cover a range of mass differences between the top squark $\tilde{t}$ and lighter supersymmetric particles, four possible decay modes of the top squark are targeted with dedicated selections: the decay $\tilde{t} \rightarrow b \tilde{\chi}_{1}^{\pm}$ into a $b$-quark and the lightest chargino with $\tilde{\chi}_{1}^{\pm} \rightarrow W \tilde{\chi}_{1}^{0}$, the decay $\tilde{t} \rightarrow t \tilde{\chi}_{1}^{0}$ into an on-shell top quark and the lightest neutralino, the three-body decay $\tilde{t} \rightarrow b W \tilde{\chi}_{1}^{0}$ and the four-body decay $\tilde{t} \rightarrow b \ell \nu \tilde{\chi}_{1}^{0}$. No significant excess of events is observed above the Standard Model background for any selection, and limits on top squarks are set as a function of the $\tilde{t}$ and $\tilde{\chi}_{1}^{0}$ masses. The results exclude at 95% confidence level $\tilde{\chi}_{1}^{0}$ masses up to about 720 GeV, extending the exclusion region of supersymmetric parameter space covered by previous searches.
@@ -24,7 +28,7 @@
 
 * [SUSY-2016-28](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-28/) (1708.09266)
   * A search for the supersymmetric partners of the Standard Model bottom and top quarks is presented. The search uses 36.1 fb$^{-1}$ of $pp$ collision data at $\sqrt{s}=13$ TeV collected by the ATLAS experiment at the Large Hadron Collider. Direct production of pairs of bottom and top squarks ($\tilde{b}_{1}$ and $\tilde{t}_{1}$) is searched for in final states with $b$-tagged jets and missing transverse momentum. Distinctive selections are defined with either no charged leptons (electrons or muons) in the final state, or one charged lepton. The zero-lepton selection targets models in which the $\tilde{b}_{1}$ is the lightest squark and decays via $\tilde{b}_{1} \rightarrow b \tilde{\chi}^{0}_{1}$, where $\tilde{\chi}^{0}_{1}$ is the lightest neutralino. The one-lepton final state targets models where bottom or top squarks are produced and can decay into multiple channels, $\tilde{b}_{1} \rightarrow b \tilde{\chi}^{0}_{1}$ and $\tilde{b}_{1} \rightarrow t \tilde{\chi}^{\pm}_{1}$, or $\tilde{t}_{1} \rightarrow t \tilde{\chi}^{0}_{1}$ and $\tilde{t}_{1} \rightarrow b \tilde{\chi}^{\pm}_{1}$, where $\tilde{\chi}^{\pm}_{1}$ is the lightest chargino and the mass difference $m_{\tilde{\chi}^{\pm}_{1}}- m_{\tilde{\chi}^{0}_{1}}$ is set to 1 GeV. No excess above the expected Standard Model background is observed. Exclusion limits at 95\% confidence level on the mass of third-generation squarks are derived in various supersymmetry-inspired simplified models.
-  ![SUSY-2016-28_fig_07a.png]  ![SUSY-2016-28_fig_07b.png]
+  ![SUSY-2016-28_fig_07a.png](SUSY-2016-28_fig_07a.png)  ![SUSY-2016-28_fig_07b.png](SUSY-2016-28_fig_07b.png)
   (No explicit stop plot)
 
 * [EXOT-2016-27](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2016-27/) (1711.03301)
@@ -46,4 +50,5 @@
 * [SUSY-2018-09](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2018-09/) (1909.08457)
   * A search for supersymmetric partners of gluons and quarks is presented, involving signatures with jets and either two isolated leptons (electrons or muons) with the same electric charge, or at least three isolated leptons. A data sample of proton-proton collisions at s√ = 13 TeV recorded with the ATLAS detector at the Large Hadron Collider between 2015 and 2018, corresponding to a total integrated luminosity of 139 fb−1, is used for the search. No significant excess over the Standard Model expectation is observed. The results are interpreted in simplified supersymmetric models featuring both R-parity conservation and R-parity violation, raising the exclusion limits beyond those of previous ATLAS searches to 1600 GeV for gluino masses and 750 GeV for bottom and top squark masses in these scenarios.
   ![SUSY-2018-09_fig_08b.png]
+
 
