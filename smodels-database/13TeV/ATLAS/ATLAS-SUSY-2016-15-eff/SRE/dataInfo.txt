@@ -1,7 +1,7 @@
 dataId: SRE
 dataType: efficiencyMap
-observedN: 6.1
-expectedBG: 6.4
-bgError: 1.9
-upperLimit: 0.204*fb
+observedN: 3
+expectedBG: 3.64
+bgError: 0.79
+upperLimit: 0.17*fb
 expectedUpperLimit: 0.204*fb

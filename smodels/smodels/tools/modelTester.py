@@ -138,7 +138,7 @@ def testPoint(inputFile, outputDir, parser, databaseVersion, listOfExpRes):
         pass
     for expResult in listOfExpRes:
         theorypredictions = theoryPredictionsFor(expResult, smstoplist,
-                    useBestDataset=True, combinedResults=combineResults,
+                    useBestDataset=False, combinedResults=combineResults,
                     marginalize=False)
         if not theorypredictions:
             continue
