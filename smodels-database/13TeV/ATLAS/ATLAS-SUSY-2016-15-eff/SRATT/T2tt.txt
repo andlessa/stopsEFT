@@ -4,10 +4,10 @@ condition: None
 conditionDescription: None
 susyProcess: pp --> stop stop, stop  --> top lsp
 checked: False
-figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-15/fig_08.png
-dataUrl: https://www.hepdata.net/record/ins1623207?version=7&table=Observed exclusion contour directTT
+figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-15/figaux_09a.png
+dataUrl: https://www.hepdata.net/record/ins1623207?version=7&table=EffSRATT
 source: ATLAS
-validated: False
+validated: TBD
 axes: [[x, y], [x, y]]
 finalState: ['MET', 'MET']
 efficiencyMap: [[[[1.0000E+03*GeV,1.0000E+00*GeV],[1.0000E+03*GeV,1.0000E+00*GeV]],0.037102],
