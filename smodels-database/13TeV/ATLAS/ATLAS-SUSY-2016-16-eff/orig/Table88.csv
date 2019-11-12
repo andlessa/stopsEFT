@@ -1,6 +1,7 @@
 #: table_doi: 10.17182/hepdata.79304.v4/t88
 #: name: Table 88
 #: description: $\textbf{Efficiency 1 } -$ Acceptance and efficiency for the bino LSP model in the $m_{\tilde{t}_{1}}$ vs $m_{\tilde{\chi}^{0}_{1}}$ plane. Efficiencies larger than 100% are observed in the bWN SR due differences in $am_{\mathrm{T2}}$ between truth and reconstruction level, in the absence of $b$-tagging inefficiencies. Acceptance and efficiency numbers are provided for discovery SRs even if shape fits are used for placing exclusion limits.
+
 #: data_file: eff_tN_efficiency.yaml
 #: keyword cmenergies: 13000.0
 M(NEUTRALINO) [GeV],M(STOP) [GeV],EFFICIENCY
@@ -282,7 +283,7 @@ M(NEUTRALINO) [GeV],M(STOP) [GeV],EFFICIENCY
 600.0,900.0,0.7253954410552979
 600.0,950.0,0.7730229496955872
 600.0,1000.0,0.8408831357955933
- 
+
 M(NEUTRALINO) [GeV],M(STOP) [GeV],SELECTED SR
 1.0,195.0,tN_diag_low
 1.0,450.0,tN_med

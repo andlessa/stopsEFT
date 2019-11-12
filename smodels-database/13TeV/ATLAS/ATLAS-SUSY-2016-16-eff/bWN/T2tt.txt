@@ -1,8 +1,8 @@
-txName: T2ttoff
-constraint: [[[b, W]],[[b, W]]]
+txName: T2tt
+constraint: [[[t]],[[t]]]
 condition: None
 conditionDescription: None
-susyProcess: pp --> stop stop, stop  --> top^* lsp
+susyProcess: pp --> stop stop, stop  --> top lsp
 checked: False
 figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png;https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png
 dataUrl: ['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88', 'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90'];['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88', 'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90']

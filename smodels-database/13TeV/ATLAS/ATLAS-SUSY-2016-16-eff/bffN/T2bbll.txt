@@ -1,14 +1,14 @@
-txName: T2bbffff
-constraint: 9/4*[[[b, jet,jet]],[[b, jet,jet]]]
+txName: T2bbll
+constraint: [[[b, L, nu]],[[b, jet,jet]]]
 condition: None
 conditionDescription: None
-susyProcess: pp --> stop stop, stop  --> bottom f f lsp
+susyProcess: pp --> stop stop, stop  --> top^* lsp
 checked: False
-figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png
-dataUrl: https://www.hepdata.net/record/ins1639856?version=4&table=Table60
+figureUrl: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png;https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png
+dataUrl: ['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88', 'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90'];['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88', 'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90']
 source: ATLAS
 validated: TBD
-axes: [[x, y], [x, y]]
+axes: [[x, y], [x, y]];[[x, x - y], [x, x - y]]
 finalState: ['MET', 'MET']
 efficiencyMap: [[[[2.5000E+02*GeV,2.0000E+02*GeV],[2.5000E+02*GeV,2.0000E+02*GeV]],7.1962e-05],
 [[[2.5000E+02*GeV,2.3000E+02*GeV],[2.5000E+02*GeV,2.3000E+02*GeV]],6.5818e-05],

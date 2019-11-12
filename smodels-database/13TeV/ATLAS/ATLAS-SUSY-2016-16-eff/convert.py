@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 .. module:: convert
@@ -51,90 +51,82 @@ info.publication = 'JHEP 06 (2018) 108'
 SR   = {'obsN' 	: [8,50,19,115,34,68,70], 
 		'expN'  : [3.8,36.3,18.3,115,30.3,71,60.5], 
 		'bgErr' : [1,6.6,2.2,31,5.9,16,6.1], 
-		'SR' 	: ['tN_high','tN_med','tN_diag_high','tN_diag_med','tN_diag_low','bWN','bffN']}
+		'SR' 	: ['tN_high', 'tN_med', 'tN_diag_high', 'tN_diag_med','tN_diag_low','bWN','bffN'],
+    'NsigUL' : [10.0,31.0,11.0,58.0,17.0,31.0,28.0],
+    'NsigULexp' : [5.8,19.0,11.0,58.0,19.0,33.0,21.0]}
 
-SR2  = {'obsN'  :   [5,13,65,22,4,25,33,19,2],
-        'expN'  :   [7.4,13.8,48.3,21.3,5.8,25.1,24.7,13.7,1.8],
-        'bgErr' :   [2.1,3.6,8.2,5.0,1.6,3.8,3.1,2.1,0.3],
-        'SR'    :   ['DM_high','DM_low','DM_low_loose','bC2x_diag','bC2x_med','bCbv','bCsoft_diag','bCsoft_med','bCsoft_high']}
 
 T2tt = {
 'name' 		 : 'T2tt',
 'info' 		 :{'figure' 		: 'Fig.20', 
 			   'figureUrl' 		: 'https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png', 
-			   'dataUrl' 		: 'https://www.hepdata.net/record/ins1639856?version=4&table=Table60'},
-'sources'	 :{'expExcl'		: 'orig/HEPData-ins1639856-v4-Table_16.csv',
-			   'obsExcl'		: 'orig/HEPData-ins1639856-v4-Table_17.csv',
-			   'effMap'			: 'orig/EffMap_T2tt_'},
+			   'dataUrl' 		: ['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88',
+                         'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90']},
+'sources' : ['orig/eff_SR.csv','orig/eff_deltaM_SR.csv'],
 'constraint' : '[[[t]],[[t]]]',
 'massConstr' : None,
-'massPlane'  : 2*[[x, y]]}
+'massPlanes'  : [2*[[x, y]],2*[[x,x-y]]]}
 
 T2ttoff = {
 'name' 		 : 'T2ttoff',
 'info' 		 :{'figure' 		: 'Fig.20', 
 			   'figureUrl' 		: 'https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png', 
-			   'dataUrl' 		: 'https://www.hepdata.net/record/ins1639856?version=4&table=Table60'},
-'sources'	 :{'expExcl'		: 'orig/HEPData-ins1639856-v4-Table_16.csv',
-			   'obsExcl'		: 'orig/HEPData-ins1639856-v4-Table_17.csv',
-			   'effMap'			: 'orig/EffMap_T2tt_'},
+			   'dataUrl' 		: ['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88',
+                         'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90']},
+'sources' : ['orig/eff_SR.csv','orig/eff_deltaM_SR.csv'],
 'constraint' : '[[[b, W]],[[b, W]]]',
-'massConstr' : [['80 <= dm < 169.0'], ['80 <= dm < 169.0']],
-'massPlane'  : 2*[[x, y]]}
+'massConstr' : 2*[['80 <= dm < 169.0']],
+'massPlanes'  : [2*[[x, y]],2*[[x,x-y]]]}
 
-T2bbffff = {
-'name' 		 : 'T2bbffff',
+T2bbll = {
+'name' 		 : 'T2bbll',
 'info' 		 :{'figure' 		: 'Fig.20', 
 			   'figureUrl' 		: 'https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_20.png', 
-			   'dataUrl' 		: 'https://www.hepdata.net/record/ins1639856?version=4&table=Table60'},
-'sources'	 :{'expExcl'		: 'orig/HEPData-ins1639856-v4-Table_16.csv',
-			   'obsExcl'		: 'orig/HEPData-ins1639856-v4-Table_17.csv',
-			   'effMap'			: 'orig/EffMap_T2tt_'},
-'constraint' : '9/4*[[[b, jet,jet]],[[b, jet,jet]]]',
+			   'dataUrl' 		: ['https://www.hepdata.net/record/ins1639856?version=4&table=Table87;https://www.hepdata.net/record/ins1639856?version=4&table=Table88',
+                         'https://www.hepdata.net/record/ins1639856?version=4&table=Table89;https://www.hepdata.net/record/ins1639856?version=4&table=Table90']},
+
+'sources' : ['orig/eff_SR.csv','orig/eff_deltaM_SR.csv'],
+'constraint' : '[[[b, L, nu]],[[b, jet,jet]]]',
 'massConstr' : [['dm < 80'], ['dm < 80']],
-'massPlane'  : 2*[[x, y]]}
+'massPlanes'  : [2*[[x, y]],2*[[x,x-y]]]}
 
-T6bbWW = {
-'name' 		 : ['T6bbWW','T6bbWWoff'],
-'info' 		 :{'figure' 		: 'Fig.23', 
-			   'figureUrl' 		: 'https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2016-16/fig_23.png', 
-			   'dataUrl' 		: 'https://www.hepdata.net/record/ins1639856?version=4&table=Table70'},
-'sources'	 :{'expExcl'		: 'orig/HEPData-ins1639856-v4-Table_28.csv',
-			   'obsExcl'		: 'orig/HEPData-ins1639856-v4-Table_29.csv',
-			   'upLimit'		: 'orig/EffMap_T6bbWW_'},
-'constraint' : ['[[[b],[W]],[[b],[W]]]','[[[b],[L,nu]],[[b],[L,nu]]]'+'[[[b],[L,nu]],[[b],[q,q]]]'+'[[[b],[q,q]],[[b],[q,q]]]'],
-'massPlane'  : 2*[[x, x - 10, y]]}
+Txnames = [T2tt,T2ttoff,T2bbll]
+# Txnames = [T2tt,T2ttoff]
+
+exclusionCurves = {'obs' : ['orig/Table17.csv','orig/Table20.csv'], 'exp' : ['orig/Table16.csv','orig/Table19.csv']}
 
 
-DATA = [T2tt, SR]
-
-
-
-for i in range(len(SR['SR'])):
-	if i < 5: TX = T2tt
-	elif i == 5: TX = T2ttoff
-	else: TX = T2bbffff
+for i,sr in enumerate(SR['SR']):
 	#+++++++ dataset block ++++++++++++++
-	dataset = DataSetInput(SR['SR'][i])
-	dataset.setInfo(dataType = 'efficiencyMap', dataId = SR['SR'][i], observedN = SR['obsN'][i], expectedBG = SR['expN'][i], bgError = SR['bgErr'][i])
-	#+++++++ next txName block ++++++++++++++
-	newTx							= dataset.addTxName(TX['name'])
-	newTx.checked					= 'False'
-	newTx.constraint				= TX['constraint']
-	newTx.conditionDescription 		= None
-	newTx.condition					= None
-	newTx.source					= 'ATLAS'
-	newTx.massConstraint			= TX['massConstr']
-	#+++++++ next mass plane block ++++++++++++++
-	newPlane 						= newTx.addMassPlane(TX['massPlane'])
-	newPlane.figure 				= TX['info']['figure']
-	newPlane.figureUrl 				= TX['info']['figureUrl']
-	newPlane.dataUrl 				= TX['info']['dataUrl']
-	newPlane.setSources(dataLabels 	= ['expExclusion', 'obsExclusion', 'efficiencyMap'],
-					dataFiles 		= [TX['sources']['expExcl'], TX['sources']['obsExcl'], TX['sources']['effMap'] + SR['SR'][i] + '.txt'],
-					#units			= [ None, None, 'pb' ],
-				 	coordinates 	= [ {x: 0, y: 1, 'value': None}, {x: 0, y: 1, 'value': None},  {x : 1, y: 0, 'value' :2} ],
-                 	dataFormats 	= ['csv', 'csv', 'txt'])
+    dataset = DataSetInput(sr)
+    dataset.setInfo(dataType = 'efficiencyMap', dataId = sr, 
+                  observedN = SR['obsN'][i], expectedBG = SR['expN'][i], bgError = SR['bgErr'][i],
+                  upperLimit = str(SR['NsigUL'][i]/36.1).strip()+'*fb', 
+                  expectedUpperLimit = str(SR['NsigULexp'][i]/36.1).strip()+'*fb')
+	  #+++++++ next txName block ++++++++++++++
+    for TX in Txnames:
+        #The SRs 'bffN' and 'tN_diag_low' only apply to T2tt and T2bbll
+        if sr in ['bffN','tN_diag_low'] and TX['name'] != 'T2bbll':
+            continue
+        newTx = dataset.addTxName(TX['name'])
+        newTx.checked = 'False'
+        newTx.constraint = TX['constraint']
+        newTx.conditionDescription = None
+        newTx.condition	= None
+        newTx.source = 'ATLAS'
+        newTx.massConstraint = TX['massConstr']
+        for ip,plane in enumerate(TX['massPlanes']):
+            if not os.path.isfile(TX['sources'][ip].replace('SR',sr)):
+                continue
+            #+++++++ next mass plane block ++++++++++++++
+            newPlane = newTx.addMassPlane(plane)
+            newPlane.figure = TX['info']['figure']
+            newPlane.figureUrl = TX['info']['figureUrl']
+            newPlane.dataUrl = TX['info']['dataUrl']
+            newPlane.addSource('efficiencyMap', TX['sources'][ip].replace('SR',sr), 'csv')
+            newPlane.addSource('obsExclusion', exclusionCurves['obs'][ip], 'csv')
+            newPlane.addSource('expExclusion', exclusionCurves['exp'][ip], 'csv')
+            newTx.addMassPlane(newPlane)
 
 
 databaseCreator.create()
